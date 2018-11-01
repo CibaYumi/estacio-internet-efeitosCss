@@ -5,6 +5,29 @@ h1 {
   text-align: center;
   color: blueviolet;
 }
+p .Brendon {
+  color: crimson;
+}
+
+p:hover .Brendon {
+  background-color: darkgray;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+img {
+  width: 250px;
+  height: 200px;
+}
+li.fabio img{
+  opacity: 0.05;
+  filter: alpha(opacity=50);
+}
+li.fabio img:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
 .effect_yumi {
   text-align: center;
 }
